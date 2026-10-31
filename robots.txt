@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /
+Disallow: /free/
+Disallow: /thanks/
+Sitemap: https://juniper.casa/sitemap.xml
