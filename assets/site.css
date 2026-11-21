@@ -1,5 +1,5 @@
-/* Juniper's Corner. Palette = config/persona.json look.palette; type = Fraunces + Figtree (self-hosted).
-   Plan: docs/research/2026-10-31-juniper-casa.md */
+/* Sunny's Corner. Palette = config/persona.json look.palette; type = Fraunces + Figtree (self-hosted).
+   Plan: docs/research/archive/2026-10-31-juniper-casa.md */
 
 @font-face { font-family: "Fraunces"; src: url("/assets/fonts/fraunces.woff2") format("woff2");
   font-weight: 300 600; font-style: normal; font-display: swap; }
@@ -21,7 +21,7 @@
   --sage: #7A8F6B;
   --sage-deep: #4F6243;
   --sage-wash: #DCE3D0;
-  --duck: #F2B134;
+  --sun: #F2B134;
   --cranberry: #A3262F;
   --display: "Fraunces", "Iowan Old Style", Georgia, serif;
   --body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -48,7 +48,7 @@ body::before {
 img { max-width: 100%; height: auto; display: block; }
 a { color: var(--sage-deep); text-decoration-thickness: 1px; text-underline-offset: .18em; }
 a:hover { color: var(--ink); }
-:focus-visible { outline: 3px solid var(--duck); outline-offset: 3px; border-radius: 6px; }
+:focus-visible { outline: 3px solid var(--sun); outline-offset: 3px; border-radius: 6px; }
 p { margin: 0 0 1em; }
 em { font-style: italic; }
 
@@ -175,7 +175,7 @@ section { position: relative; }
 .way { position: relative; padding: 34px 28px 28px; background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); }
 .way p { color: var(--ink-soft); margin: 0; }
 .way__num { display: inline-grid; place-items: center; width: 44px; height: 44px; margin-bottom: 18px; border-radius: 50%;
-  font: italic 400 1.35rem/1 var(--display); color: var(--ink); background: var(--duck);
+  font: italic 400 1.35rem/1 var(--display); color: var(--ink); background: var(--sun);
   box-shadow: inset 0 -3px 0 rgba(74, 59, 48, .12); }
 .way:nth-child(2) .way__num { background: var(--sage-wash); }
 .way:nth-child(3) .way__num { background: var(--kraft-soft); }

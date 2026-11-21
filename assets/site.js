@@ -1,4 +1,4 @@
-// Juniper's Corner: signup via Kit (inline, with a plain form-post fallback), gentle reveals, click counts.
+// Sunny's Corner: signup via Kit (inline, with a plain form-post fallback), gentle reveals, click counts.
 (function () {
   document.documentElement.classList.add("js");
 
